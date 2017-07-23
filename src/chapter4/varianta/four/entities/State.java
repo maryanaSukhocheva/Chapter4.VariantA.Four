@@ -19,6 +19,7 @@ public class State {
      }
 
      public State(String name) {
+         this.name = name;
           partsState = new ArrayList<PartState>();
      }
 
